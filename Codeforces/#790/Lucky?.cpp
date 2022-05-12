@@ -1,3 +1,5 @@
+// Autor : Gyanni
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -22,3 +24,6 @@ int main() {
 		else cout << "NO" << "\n";
 	}
 }
+
+// 800
+// simple implementation
