@@ -1,8 +1,8 @@
-# Problem-Solving
+## Problem-Solving
 
 Solve codeforces problems up to 2000 rating.
 
-Goal : 
+# Goal : 
 <span style="color:#0000FF">
 Blue
 </span>
