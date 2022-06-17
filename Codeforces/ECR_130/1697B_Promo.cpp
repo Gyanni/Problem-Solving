@@ -1,4 +1,4 @@
-// Author : Gyannu
+// Author : Gyanni
 // Date : 2022-06-14
 
 #include <bits/stdc++.h>
