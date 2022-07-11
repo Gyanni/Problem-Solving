@@ -1,3 +1,6 @@
+// Author : Gyanni
+// Date : 2022-07-11
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -20,3 +23,6 @@ int  main() {
 		else cout << 1 << "\n";
 	}
 }
+
+// simple implementation
+// 800
