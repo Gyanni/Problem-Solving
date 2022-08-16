@@ -22,7 +22,7 @@ ll init(ll start, ll end, ll node) {
 	return tree[node] = init(start, mid, node * 2) + init(mid + 1, end, node * 2 + 1);
 }
 
-// Segmet Tree의 구간합을 구하는 메서드
+// Segment Tree의 구간합을 구하는 메서드
 ll Sum(ll start, ll end, ll node, ll left, ll right) {
 
 	// Tree 노드의 구간이 구해야하는 쿼리 구간의 밖에 있는 경우
