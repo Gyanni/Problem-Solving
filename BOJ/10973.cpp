@@ -18,7 +18,7 @@ int main() {
     
 
     for (ll i = n - 1; i > 0; i--) {
-        if (v[i - 1] < v[i]) continue;
+        if (v[i - 1] <= v[i]) continue;
         for (ll j = i; j < n; j++) {
             if (v[j] < v[i - 1]) {
                 swap(v[j], v[i - 1]);
@@ -35,9 +35,10 @@ int main() {
         return 0;
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n - 1; i++) {
         cout << v[i] << " ";
     }
+    cout << v[n - 1] << "\n";
 
     return 0;
 }
